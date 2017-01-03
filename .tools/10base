@@ -1,0 +1,45 @@
+#!/bin/bash
+# this script write with yashar esmaildokht , email : royaflash@yahoo.com
+#calculator function
+
+function calc
+{
+  echo "${1}" | bc -l;
+}
+
+export calc 
+echo "please type first section ip "
+read a
+echo "please type 2th section ip "
+read b 
+echo "please type 3th section ip "
+read c
+echo "please type 4th section ip "
+read d 
+echo "your ip is : $a.$b.$c.$d"
+last=$a*256^3+$b*256^2+$c*256^1+$d
+echo "your ip is : `calc $last`"
+calcc=`calc $last`
+ ping -c 4 $calcc
+#echo "$last" >test
+#bc test 
+#rm -rf test 
+
+#quit
+ 
+#exit
+
+
+#x=2
+#y=4
+#let c=x+y
+#echo $c
+#c=$((x+y))
+#echo $c
+
+
+
+
+
+
+
