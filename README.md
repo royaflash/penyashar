@@ -4,21 +4,21 @@ pentration framwork for security analyse .
 <br>email : royaflash@gmail.com
 <center><img src="penyashar.png"> </center>
 
-<h1> how use :
+<h1> how use :</>
 
-./penyashar start 
-
-->
-1)Network tools
-2)baner grabbing
-3)web
-4)recovery tools
-5)Wireless tools
-6)cryptography
-f)fun tools
-r)repository tools
-d)programmer demo
-u)update penyashar
-v)version and programmer info 
+<br>./penyashar start 
+<br>
+<br>->
+<br>1)Network tools
+<br>2)baner grabbing
+<br>3)web
+<br>4)recovery tools
+<br>5)Wireless tools
+<br>6)cryptography
+<br>f)fun tools
+<br>r)repository tools
+<br>d)programmer demo
+<br>u)update penyashar
+<br>v)version and programmer info 
 
 
