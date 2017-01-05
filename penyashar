@@ -46,6 +46,7 @@ echo "-->"
  echo "4)recovery tools"
  echo "5)Wireless tools"
  echo "6)cryptography"
+ echo "7)server audity"
  echo "f)fun tools"
  echo "r)repository tools"
  echo "d)programmer demo"
@@ -97,6 +98,10 @@ v)
     echo "6-3)Secure Password Generator"
     echo "6-4)Multi-Digest (MD5, SHA1, SHA256, SHA384, SHA512, RIPEMD-160)"
 ;;
+
+ echo "7-1)lynis"
+;;
+
 *)
 
  echo "invalid key"
@@ -169,6 +174,9 @@ cd .tools/
 ;;
 6-4) 
   ./.tools/multi.rb
+;;
+7-1)
+ ./.tools/lynis/lynis
 ;;
 esac
 case $dos in 
