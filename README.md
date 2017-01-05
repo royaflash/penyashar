@@ -19,7 +19,7 @@ for donation plese click this <a href="http://zarinp.al/@yashar" >link</a>
 <br>f)fun tools
 <br>l)local tools
 <br>m)mobile tools
-<brmo)modem tools>
+<br>mo)modem tools
 <br>r)repository tools
 <br>d)programmer demo
 <br>u)update penyashar
