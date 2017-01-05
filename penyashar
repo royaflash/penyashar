@@ -11,25 +11,16 @@ case "$1" in
             ;;
          
         stop)
-            stop
+           killall penyashar
             ;;
          
         status)
-            status anacron
+            tob -b -n 1 |grep -i "penyashar"
             ;;
-        restart)
-            stop
-            start
-            ;;
-        condrestart)
-            if test "x`pidof anacron`" != x; then
-                stop
-                start
-            fi
-            ;;
-         
+       
+              
         *)
-            echo $"Usage: $0 {start|stop|restart|condrestart|status}"
+            echo $"Usage: $0 {start|stop|status}"
             exit 1
  
 esac
@@ -86,6 +77,11 @@ read NOW
 echo "2-1) theHarvester (Information Gathering suite)"
          ;; 	
 
+
+ 3)
+ 
+ echo "3-1)golismero"
+;;
 v)
     echo "version 0.1"
     echo "programmer yashar esmaildokht |http://unixmen.ir"
@@ -153,7 +149,11 @@ cd .tools/
                echo "0)back"
 cd .tools/
     ;;   
- 
+
+3-1)
+ python .tools/golismeroo.py
+
+;;
 
 5-1)
 ./.tools/wifre
