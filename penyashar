@@ -176,7 +176,7 @@ cd .tools/
   ./.tools/multi.rb
 ;;
 7-1)
- ./.tools/lynis/lynis
+ ./.tools/lynis/lynis_audity
 ;;
 esac
 case $dos in 
