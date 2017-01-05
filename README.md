@@ -1,5 +1,5 @@
 # penyashar
-pentration framwork for security analyse . 
+pentration framwork for security analyse . and sys/net/sec admin tools .
 <br>Author : yashar esmaildokht
 <br>email : royaflash@gmail.com
 <center><img src="penyashar/penyashar.png"> </center>
