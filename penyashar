@@ -15,7 +15,7 @@ case "$1" in
             ;;
          
         status)
-            tob -b -n 1 |grep -i "penyashar"
+            top -b -n 1 |grep -i "penyashar"
             ;;
        
               
@@ -101,10 +101,9 @@ v)
     echo "6-3)Secure Password Generator"
     echo "6-4)Multi-Digest (MD5, SHA1, SHA256, SHA384, SHA512, RIPEMD-160)"
 ;;
-
+ 7)
  echo "7-1)lynis"
 ;;
-
 *)
 
  echo "invalid key"
